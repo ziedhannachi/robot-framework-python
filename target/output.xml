@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on win32)" generated="20221207 14:17:52.678" rpa="false" schemaversion="3">
+<suite id="s1" name="Hello" source="c:\Users\zieda\OneDrive\Bureau\automation-python\FRWROBOTFRAMEWORK\tests\Hello.robot">
+<test id="s1-t1" name="Open chrome" line="12">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221207 14:17:52.889" level="INFO">Opening browser 'Firefox' to base url 'http://www.google.com'.</msg>
+<msg timestamp="20221207 14:17:52.893" level="INFO">Firefox driver log is always forced to to: C:\Users\zieda\OneDrive\Bureau\automation-python\FRWROBOTFRAMEWORK\geckodriver-1.log</msg>
+<status status="PASS" starttime="20221207 14:17:52.888" endtime="20221207 14:18:02.739"/>
+</kw>
+<doc>openning browser</doc>
+<status status="PASS" starttime="20221207 14:17:52.887" endtime="20221207 14:18:02.739"/>
+</test>
+<status status="PASS" starttime="20221207 14:17:52.682" endtime="20221207 14:18:02.741"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Hello">Hello</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
